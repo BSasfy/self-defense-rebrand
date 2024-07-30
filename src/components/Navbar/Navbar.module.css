@@ -23,14 +23,13 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
     color: white
-  }
-
-  .active {
-    background-color: royalblue;
   }
 
   .shop {
     float: right;
+  }
+
+  a.active {
+    background-color: red;
   }
