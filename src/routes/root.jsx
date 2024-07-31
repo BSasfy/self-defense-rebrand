@@ -8,9 +8,7 @@ export default function Root() {
   return (
     <>
       <Navbar />
-      <div id="detail">
-        <div>{outlet || <Home />}</div>
-      </div>
+      <div>{outlet || <Home />}</div>
     </>
   );
 }

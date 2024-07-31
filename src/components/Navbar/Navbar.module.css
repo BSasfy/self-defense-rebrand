@@ -28,8 +28,14 @@ ul {
 
   .shop {
     float: right;
+    font-size: x-large;
   }
 
   a.active {
     background-color: red;
+    font-size: x-large;
+  }
+
+  .navLink {
+    font-size: x-large;
   }
