@@ -9,33 +9,48 @@ ul {
   background-color: #333;
 }
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    color: white
-  }
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: white;
+}
+
+.shop {
+  float: right;
+  font-size: x-large;
+}
+
+a.active {
+  background-color: red;
+  font-size: x-large;
+}
+
+.navLink {
+  font-size: x-large;
+}
+
+@media (max-width: 498px) {
   .shop {
-    float: right;
-    font-size: x-large;
+    font-size: medium;
   }
 
   a.active {
     background-color: red;
-    font-size: x-large;
+    font-size: medium;
   }
 
   .navLink {
-    font-size: x-large;
+    font-size: medium;
   }
+}
