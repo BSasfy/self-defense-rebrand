@@ -5,8 +5,8 @@
 }
 
 .pageContainer {
-  background-color: blue;
-  height: 100vh;
+  background-color: rgb(5, 14, 99);
+  height: 100%;
 }
 
 .title {
@@ -27,7 +27,12 @@ h2 {
 }
 
 .cardsContainer {
-  padding-top: 30px;
   justify-content: space-evenly;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .cardsContainer {
+    display: grid;
+  }
 }

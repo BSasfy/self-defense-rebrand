@@ -25,8 +25,12 @@ export default function Home() {
             <CardItem />
           </Link>
 
-          <CardItem />
-          <CardItem />
+          <Link to="/classes/1">
+            <CardItem />
+          </Link>
+          <Link to="/classes/1">
+            <CardItem />
+          </Link>
         </div>
       </div>
     </>

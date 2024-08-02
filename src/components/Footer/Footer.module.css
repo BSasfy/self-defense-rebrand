@@ -1,0 +1,47 @@
+.footerContainer {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1f2937;
+}
+
+.rightsText {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.screenReader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.iconPolicyContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.policyLinks {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.policyLinks:hover {
+  text-decoration: underline;
+}
