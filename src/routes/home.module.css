@@ -11,10 +11,10 @@
 
 .title {
   position: absolute;
-  top: 50%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-shadow: 2px 2px black;
+  text-shadow: 3px 3px black;
   width: 100%;
 }
 

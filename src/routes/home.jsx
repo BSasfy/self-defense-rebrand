@@ -7,9 +7,14 @@ export default function Home() {
     <>
       <div className={styles.headerContainer}>
         <img
-          src="/images/SSDSSelfDefeceFrontPageWhite.jpg"
+          src="/images/SSDSSelfDefeceFrontPageFull.jpg"
           alt="Self Defence Group Picture"
-          style={{ maxWidth: "100%" }}
+          style={{
+            maxWidth: "100%",
+            display: "flex",
+            opacity: "0.9",
+            width: "1920px",
+          }}
         />
         <div className={styles.title}>
           <h1>

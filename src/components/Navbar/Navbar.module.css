@@ -1,4 +1,4 @@
-ul {
+.navbar {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -7,7 +7,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111111;
+  background: none;
+  text-shadow: 1px 1px black;
 }
 
 li {
@@ -33,7 +34,8 @@ li a:hover {
 }
 
 a.active {
-  background-color: red;
+  font-weight: bold;
+  border-bottom: 3px solid red;
   font-size: x-large;
 }
 
@@ -46,12 +48,27 @@ a.active {
     font-size: medium;
   }
 
-  a.active {
-    background-color: red;
-    font-size: medium;
-  }
-
   .navLink {
     font-size: medium;
   }
+
+  a.active {
+    font-size: medium;
+  }
+}
+
+.navScroll {
+  background-color: #111111;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navScroll a.active {
+  background-color: red;
 }

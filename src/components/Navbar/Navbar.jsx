@@ -1,10 +1,28 @@
+import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 20) {
+      setScrolling(true);
+      console.log("true");
+    } else {
+      setScrolling(false);
+      console.log("false");
+    }
+  };
+
   return (
     <nav>
-      <ul>
+      <ul className={scrolling ? styles.navScroll : styles.navbar}>
         <div style={{ maxWidth: "1920px" }}>
           <li>
             <NavLink
