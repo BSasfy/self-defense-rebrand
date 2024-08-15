@@ -11,15 +11,16 @@
   text-shadow: 1px 1px black;
 }
 
-li {
+.navbar li {
   float: left;
 }
 
-li a {
+.navbar li a,
+.navScroll li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
 }
 
@@ -43,7 +44,21 @@ a.active {
   font-size: x-large;
 }
 
-@media (max-width: 498px) {
+@media (max-width: 768px) {
+  .shop {
+    font-size: large;
+  }
+
+  .navLink {
+    font-size: large;
+  }
+
+  a.active {
+    font-size: large;
+  }
+}
+
+@media (max-width: 480px) {
   .shop {
     font-size: medium;
   }
@@ -67,6 +82,10 @@ a.active {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.navScroll li {
+  float: left;
 }
 
 .navScroll a.active {

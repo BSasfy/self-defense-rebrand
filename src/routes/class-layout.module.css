@@ -3,3 +3,56 @@
   max-width: 100%;
   display: flex;
 }
+
+.headerContainer {
+  position: relative;
+  text-align: center;
+  color: rgb(241, 237, 250);
+}
+
+.pageContainer {
+  background-color: rgb(228, 228, 228);
+  padding: 3rem;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 3px 3px black;
+  width: 100%;
+}
+
+.pageContainer h1 {
+  font-size: 5.9vw;
+  margin-top: 0;
+  text-align: center;
+}
+
+.pageContainer h2 {
+  font-size: 3vw;
+  margin-top: 0;
+}
+
+.pageContainer ul {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.pageContainer button {
+  width: 40%;
+  background: rgb(5, 14, 99);
+  color: white;
+}
+
+.frame {
+  border: 10px solid rgb(5, 14, 99);
+  padding: 4rem;
+  display: grid;
+}
+
+.buttonDiv {
+  text-align: center;
+}
