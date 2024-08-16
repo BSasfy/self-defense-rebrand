@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav>
       <ul className={scrolling ? styles.navScroll : styles.navbar}>
         <div style={{ maxWidth: "1920px" }}>
-          <li>
+          <li className={styles.menuTitle}>
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -34,17 +34,28 @@ export default function Navbar() {
               Home
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/classes/1"
-              className={({ isActive }) =>
-                isActive ? styles.active : styles.navLink
-              }
-            >
-              Classes
-            </NavLink>
+          <li className={styles.menuTitle}>
+            <button className={styles.navLink}>Courses</button>
+            <li className={styles.subMenuTitle}>
+              <NavLink
+                to="/classes/womens"
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.navLink
+                }
+              >
+                Women Only
+              </NavLink>
+              <NavLink
+                to="/classes/mixed-adult"
+                className={({ isActive }) =>
+                  isActive ? styles.active : styles.navLink
+                }
+              >
+                Mixed Adult
+              </NavLink>
+            </li>
           </li>
-          <li>
+          {/* <li className={styles.menuTitle}>
             <NavLink
               to="trial"
               className={({ isActive }) =>
@@ -53,8 +64,8 @@ export default function Navbar() {
             >
               Trial
             </NavLink>
-          </li>
-          <li>
+          </li> */}
+          <li className={styles.menuTitle}>
             <NavLink
               to="contact"
               className={({ isActive }) =>
@@ -63,9 +74,6 @@ export default function Navbar() {
             >
               Contact
             </NavLink>
-          </li>
-          <li className={styles.shop}>
-            <NavLink to="#shop">Shop</NavLink>
           </li>
         </div>
       </ul>

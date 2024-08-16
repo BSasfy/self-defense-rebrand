@@ -6,7 +6,8 @@ import { Theme, ThemePanel } from "@radix-ui/themes";
 import "./index.css";
 import Root from "./routes/root";
 import ErrorPage from "./error-page";
-import ClassLayout from "./routes/class-layout";
+import Womens from "./routes/classes/womens";
+import Mixed from "./routes/classes/mixed";
 import Trial from "./routes/trial";
 import Contact from "./routes/contact";
 
@@ -17,13 +18,17 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "classes/:classId",
-        element: <ClassLayout />,
+        path: "classes/womens",
+        element: <Womens />,
       },
       {
-        path: "trial",
-        element: <Trial />,
+        path: "classes/mixed-adult",
+        element: <Mixed />,
       },
+      // {
+      //   path: "trial",
+      //   element: <Trial />,
+      // },
       {
         path: "contact",
         element: <Contact />,
