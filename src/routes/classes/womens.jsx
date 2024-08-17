@@ -17,7 +17,9 @@ export default function Womens() {
 
       <div className={styles.pageContainer}>
         <div className={styles.frame}>
-          <h3>4-week Women Only Beginners Course - only £30!</h3>
+          <h3>
+            4-week Women Only Beginners Course! <br /> Only £30!
+          </h3>
           <h4>
             Thursdays 6-7 pm, Glasgow Club Kelvinhall,
             <br />

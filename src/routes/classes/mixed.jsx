@@ -24,15 +24,15 @@ export default function Mixed() {
             starting 26th of September 2024!
           </h4>
           <ul>
-            <li>Physical Self Defence Techniques</li>
-            <li>Beginners Sparring</li>
-            <li>Class Schedule:</li>
-            <ul>
-              <li>Intro and Basics</li>
-              <li>Situational training such as chokes, bearhugs and more</li>
-              <li>Weapons</li>
-              <li>Ground Techiques and Sparring</li>
-            </ul>
+            <li>Wide variety of Self Defence techniques</li>
+            <li>Get stronger, fitter and faster!</li>
+          </ul>
+          <div className={styles.classSchedule}> Class Schedule</div>
+          <ul>
+            <li>Intro and Basics</li>
+            <li>Situational training such as chokes, bearhugs and more</li>
+            <li>Weapons</li>
+            <li>Ground Techiques and Sparring</li>
           </ul>
           <div className={styles.suitableText}>
             Suitable for everyone, no experience necessary!
