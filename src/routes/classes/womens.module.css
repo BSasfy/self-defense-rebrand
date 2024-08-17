@@ -13,7 +13,7 @@
 
 .pageContainer {
   background-color: rgb(228, 228, 228);
-  padding: 3rem;
+  padding: 5%;
   height: 100%;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .classBenefits {
-  padding-left: 11vw;
+  padding-left: 15vw;
 }
 
 .suitableText {
@@ -62,7 +62,7 @@
 
 .frame {
   border: 10px solid rgb(5, 14, 99);
-  padding: 5%;
+  padding: 3%;
   display: grid;
 }
 
@@ -75,6 +75,7 @@
   color: rgb(5, 14, 99);
   width: fit-content;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 3vw;
   text-decoration: underline;
+  padding-left: 6vw;
 }

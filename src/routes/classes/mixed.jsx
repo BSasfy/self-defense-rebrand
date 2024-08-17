@@ -23,12 +23,12 @@ export default function Mixed() {
             <br />
             starting 26th of September 2024!
           </h4>
-          <ul>
+          <ul className={styles.classBenefits}>
             <li>Wide variety of Self Defence techniques</li>
             <li>Get stronger, fitter and faster!</li>
           </ul>
           <div className={styles.classSchedule}> Class Schedule</div>
-          <ul>
+          <ul className={styles.classBenefits}>
             <li>Intro and Basics</li>
             <li>Situational training such as chokes, bearhugs and more</li>
             <li>Weapons</li>
