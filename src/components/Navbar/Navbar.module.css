@@ -24,10 +24,13 @@
   text-decoration: none;
   background-color: transparent;
   text-shadow: 1px 1px black;
+  transition-duration: 0.4s;
 }
 
 .subMenuTitle a {
   display: none;
+
+  color: black;
 }
 
 .menuTitle:hover .subMenuTitle a {

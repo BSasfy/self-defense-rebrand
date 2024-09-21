@@ -9,7 +9,7 @@ import ErrorPage from "./error-page";
 import Womens from "./routes/classes/womens";
 import Mixed from "./routes/classes/mixed";
 import Trial from "./routes/trial";
-import Contact from "./routes/contact";
+import Contact from "./routes/contact-page";
 
 const router = createBrowserRouter([
   {

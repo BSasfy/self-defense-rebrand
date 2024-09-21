@@ -11,7 +11,7 @@ export default function Womens() {
         />
         <div className={styles.title}>
           <h1>WOMEN ONLY BEGINNERS COURSE</h1>
-          <h2>Starting 27th of September</h2>
+          <h2>Starting 26th of September</h2>
         </div>
       </div>
 
@@ -21,9 +21,11 @@ export default function Womens() {
             4-week Women Only Beginners Course! <br /> Only £30!
           </h3>
           <h4>
-            Thursdays 6-7 pm, Glasgow Club Kelvinhall,
-            <br />
-            starting 26th of September 2024!
+            Thursdays 6-7 pm,{" "}
+            <span style={{ display: "block" }}>Glasgow Club Kelvinhall</span>
+            <span style={{ display: "block" }}>
+              starting 26th of September 2024!
+            </span>
           </h4>
           <ul className={styles.classBenefits}>
             <li>Physical Self Defence Techniques</li>

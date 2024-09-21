@@ -79,3 +79,45 @@
   text-decoration: underline;
   padding-left: 6vw;
 }
+
+@media (max-width: 768px) {
+  .pageContainer ul {
+    font-size: 3.5vw;
+    margin-top: 0;
+  }
+
+  .pageContainer h3 {
+    font-size: 6vw;
+  }
+
+  .pageContainer h4 {
+    font-size: 4.5vw;
+  }
+
+  .suitableText {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer ul {
+    font-size: 5vw;
+    margin-top: 0;
+  }
+
+  .pageContainer h3 {
+    font-size: 8vw;
+  }
+
+  .pageContainer h4 {
+    font-size: 6.5vw;
+  }
+
+  .suitableText {
+    font-size: 6vw;
+  }
+
+  .buttonDiv {
+    font-size: 6vw;
+  }
+}
